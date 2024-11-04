@@ -12,7 +12,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "UK Taxation & LTD Formation",
@@ -23,7 +23,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "UAE Taxation & Company Formation",
@@ -34,7 +34,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "QuickBooks Bookkeeping",
@@ -45,7 +45,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
       icon: logonew,
     },
     {
@@ -57,7 +57,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "Power BI",
@@ -68,7 +68,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "Advance Excel",
@@ -79,7 +79,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "Xero Accounting",
@@ -90,7 +90,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
 
     {
@@ -102,7 +102,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "Search Engine Optimization (SEO)",
@@ -113,7 +113,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "Shopify & Local eCommerce",
@@ -124,7 +124,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
     {
       title: "Full Stack Mern Development",
@@ -135,13 +135,13 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-      certification: "Certification Course",
+     
     },
   ];
 
   return (
     <>
-      <div className="sc-gPEVay ejqFgl mt-32 md:px-10 xl:px-32 mb-20">
+      <div className="sc-gPEVay ejqFgl mt-32 md:px-10 xl:px-32 mb-20  ">
         <div className="sc-iRbamj chKZTL">
           {/* <ul className="sc-cMljjf fGnogu">
             <li className="sc-jAaTju ihchcE">

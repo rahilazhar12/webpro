@@ -11,7 +11,7 @@ const Header = () => {
       </div>
 
       {/* Center - Navigation Links */}
-      <div className="hidden md:flex space-x-6 text-gray-800">
+      <div className="md:flex space-x-6 text-gray-800 max-sm:text-xs max-sm:space-x-2">
         <a href="#">Photo Gallery</a>
         <a href="#">About Us</a>
       </div>
@@ -30,7 +30,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu Button */}
-      <div className="md:hidden">
+      {/* <div className="md:hidden">
         <button
           className="text-gray-800 focus:outline-none"
           aria-label="Open Menu"
@@ -50,7 +50,7 @@ const Header = () => {
             />
           </svg>
         </button>
-      </div>
+      </div> */}
     </nav>
   );
 };

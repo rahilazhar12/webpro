@@ -2,25 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/133330645318/1727870642570/_Web_Team_Assets/Component_Modules/hs-components/v3/css/theme.min.css"
+    <title>WebPro School</title>
+    
+    <!-- Preconnect for improved load time on external resources -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://academy.hubspot.com" crossorigin />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Asynchronous Font Awesome loading -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+      media="print" 
+      onload="this.media='all'" 
     />
-    <link
-      rel="stylesheet"
-      href="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/40719900893/1725302010923/_Web_Team_Assets/Academy/app/global.min.css"
+
+    <!-- Asynchronous loading for non-essential CSS -->
+    <link 
+      rel="stylesheet" 
+      href="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/133330645318/1727870642570/_Web_Team_Assets/Component_Modules/hs-components/v3/css/theme.min.css" 
+      media="print" 
+      onload="this.media='all'"
     />
-    <title>Vite + React</title>
+    <link 
+      rel="stylesheet" 
+      href="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/40719900893/1725302010923/_Web_Team_Assets/Academy/app/global.min.css" 
+      media="print" 
+      onload="this.media='all'"
+    />
+
+    <!-- Preload critical fonts for faster rendering -->
+    <link rel="preload" href="/fonts/font.woff2" as="font" type="font/woff2" crossorigin />
+
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Main React application entry point with defer attribute -->
+    <script type="module" src="/src/main.jsx" defer></script>
+
+    <!-- Asynchronous loading for non-essential JavaScript -->
     <script
       src="https://academy.hubspot.com/hs-fs/hub/53/hub_generated/template_assets/35452212149/1711469082643/_Web_Team_Assets/Academy/app/about.min.js"
-      nonce=""
+      defer
     ></script>
     
   </body>
