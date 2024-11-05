@@ -141,7 +141,7 @@ const Home = () => {
               Engineers
             </h3>
             <p className="text-gray-600 text-sm">
-              At WebPro School, Engineers develop key skills in data analysis,
+              Engineers develop key skills in data analysis,
               project management, and technical tools, with hands-on support to
               advance their careers
             </p>

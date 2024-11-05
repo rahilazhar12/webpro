@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { CiFacebook } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
-import { RiTwitterXLine } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {

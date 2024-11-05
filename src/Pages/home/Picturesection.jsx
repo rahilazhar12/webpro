@@ -38,7 +38,7 @@ const Picturesection = () => {
               className="academy-typing-hero__content--title"
               aria-label="Web Pro School"
             >
-              Web <span>Pro School</span>
+              Web<span>Pro School</span>
             </h1>
           </div>
           <p className="">

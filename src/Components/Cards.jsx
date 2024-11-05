@@ -115,7 +115,7 @@ const Cards = () => {
       icon: dm,
     },
     {
-      title: "Search Engine Optimization (SEO)",
+      title: "Search Engine Optimization",
       description:
         "Search engine optimization strategies, boosting visibility, traffic, and organic growth for businesses.",
       imgSrc:
