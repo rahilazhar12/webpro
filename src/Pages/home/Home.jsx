@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 const Cards = lazy(() => import("../../Components/Cards")); // Lazy load Cards component
 const Picturesection = lazy(() => import("./Picturesection"));
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 import Loader from "../../Components/loader/Loader";
 
 const Home = () => {
@@ -52,7 +52,7 @@ const Home = () => {
       </div>
 
       {/* ------------------------------------------------------------------------------------------------------- */}
-      <div className=" bg-white text-center md:py-20">
+      <div className=" bg-white text-center md:py-20 max-sm:p-5">
         <h2 className="text-3xl font-bold mb-4">
           Our students earned 500,000+ USD in the year 2024.
         </h2>
@@ -166,7 +166,7 @@ const Home = () => {
         {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto max-w-screen-lg px-4">
           {/* Advance your career */}
-          <div className="text-left md:text-center">
+          <div className="text-center">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">
               Enhance Your Career
             </h3>
@@ -178,7 +178,7 @@ const Home = () => {
           </div>
 
           {/* Show off your skills */}
-          <div className="text-left md:text-center">
+          <div className="text-center">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">
               Showcase Your Expertise
             </h3>
@@ -190,7 +190,7 @@ const Home = () => {
           </div>
 
           {/* Grow Your Business */}
-          <div className="text-left md:text-center">
+          <div className="text-center">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">
               Expand Your Business Potential
             </h3>

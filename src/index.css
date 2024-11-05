@@ -5410,7 +5410,7 @@ ul.inline li {
 .academy-typing-hero__content {
   grid-column: auto/span 1;
   margin: 0 auto;
-  padding: 2rem 1rem 7.5rem;
+  padding: 50px;
   text-align: center;
 }
 

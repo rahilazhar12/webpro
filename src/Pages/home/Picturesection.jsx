@@ -1,18 +1,18 @@
 import React from "react";
-import one from "../../assets/1.jpg";
-import two from "../../assets/2.jpg";
-import three from "../../assets/3.jpg";
-import four from "../../assets/4.jpg";
-import five from "../../assets/5.jpg";
-import six from "../../assets/6.png";
+import one from "../../assets/1.webp";
+import two from "../../assets/2.webp";
+import three from "../../assets/3.webp";
+import four from "../../assets/4.webp";
+import five from "../../assets/5.webp";
+import six from "../../assets/6.webp";
 
 const Picturesection = () => {
   return (
-    <div className="mt-20">
+    <div className="md:mt-20">
       <section className="academy-typing-hero" id="academy-container"></section>
       <div className="academy-typing-hero__container">
         {/* Left Section Images */}
-        <div className="academy-typing-hero__persona-left hidden md:block">
+        <div className="academy-typing-hero__persona-left hidden xl:block">
           <img
             className="academy-typing-hero__persona--image academy-hero-image-1 bg-contain"
             alt="Persona left image 1"
@@ -65,7 +65,7 @@ const Picturesection = () => {
         </div>
 
         {/* Right Section Images */}
-        <div className="academy-typing-hero__persona-right hidden md:block">
+        <div className="academy-typing-hero__persona-right hidden xl:block">
           <img
             className="academy-typing-hero__persona--image academy-hero-image-2"
             alt="Persona right image 1"
@@ -85,7 +85,7 @@ const Picturesection = () => {
         </div>
 
         {/* Bottom Section Images */}
-        <div className="academy-typing-hero__persona-bottom hidden md:block">
+        <div className="academy-typing-hero__persona-bottom hidden xl:block">
           <img
             className="academy-typing-hero__persona--image academy-hero-image-5"
             alt="Persona bottom image 1"

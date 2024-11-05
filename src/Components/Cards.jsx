@@ -1,5 +1,15 @@
 import React from "react";
-import logonew from "../assets/logonew.png";
+import qb from "../assets/icons/quickbooks.webp";
+import excel from "../assets/icons/excel.webp";
+import pbi from "../assets/icons/powerbi.webp";
+import zero from "../assets/icons/zero.webp";
+import sap from "../assets/icons/sap.webp";
+import dm from "../assets/icons/socialmedia.webp";
+import seo from "../assets/icons/seo.webp";
+import shopify from "../assets/icons/shopify.webp";
+import react from "../assets/icons/webdevp.webp";
+import us from "../assets/icons/ustax.webp";
+import uk from "../assets/icons/tax.webp";
 
 const Cards = () => {
   const cardData = [
@@ -12,8 +22,9 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: us,
     },
+
     {
       title: "UK Taxation & LTD Formation",
       description:
@@ -23,7 +34,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: uk,
     },
     {
       title: "UAE Taxation & Company Formation",
@@ -34,7 +45,6 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
     },
     {
       title: "QuickBooks Bookkeeping",
@@ -45,8 +55,8 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
-      icon: logonew,
+
+      icon: qb,
     },
     {
       title: "SAP Business One",
@@ -57,7 +67,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: sap,
     },
     {
       title: "Power BI",
@@ -68,7 +78,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: pbi,
     },
     {
       title: "Advance Excel",
@@ -79,7 +89,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: excel,
     },
     {
       title: "Xero Accounting",
@@ -90,7 +100,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: zero,
     },
 
     {
@@ -102,18 +112,18 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: dm,
     },
     {
       title: "Search Engine Optimization (SEO)",
       description:
-        "Search engine optimization strategies, boosting visibility, traffic, and organic growth for businesses.",
+        "Search engine optimization strategies, boosting visibility, traffic, and organic growth for businesses.",
       imgSrc:
         "//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/academy/icons/Bulb.svg",
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: seo,
     },
     {
       title: "Shopify & Local eCommerce",
@@ -124,7 +134,7 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: shopify,
     },
     {
       title: "Full Stack Mern Development",
@@ -135,13 +145,13 @@ const Cards = () => {
       link: "https://academy.hubspot.com/courses/email-marketing-software?library=true&",
       ctaLink:
         "https://app.hubspot.com/signup-hubspot/academy?hubs_signup-url=academy.hubspot.com/&lang=en&&intent=academyTrack&track=2274048",
-     
+      icon: react,
     },
   ];
 
   return (
     <>
-      <div className="sc-gPEVay ejqFgl mt-32 md:px-10 xl:px-32 mb-20  ">
+      <div className="sc-gPEVay ejqFgl  md:mt-32 md:px-10 xl:px-32 mb-20  ">
         <div className="sc-iRbamj chKZTL">
           {/* <ul className="sc-cMljjf fGnogu">
             <li className="sc-jAaTju ihchcE">
